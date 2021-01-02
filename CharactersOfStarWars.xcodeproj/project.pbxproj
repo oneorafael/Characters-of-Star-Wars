@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		67F25BE425A0F42D00FB064D /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F25BE325A0F42D00FB064D /* CharacterViewController.swift */; };
+		67F25BE825A0F53D00FB064D /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67F25BE725A0F53D00FB064D /* Webservice.swift */; };
 		67FE748F259FAE3D00990407 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FE748E259FAE3D00990407 /* AppDelegate.swift */; };
 		67FE7491259FAE3D00990407 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FE7490259FAE3D00990407 /* SceneDelegate.swift */; };
 		67FE7496259FAE3D00990407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67FE7494259FAE3D00990407 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		67F25BE325A0F42D00FB064D /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		67F25BE725A0F53D00FB064D /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		67FE748B259FAE3D00990407 /* CharactersOfStarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CharactersOfStarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67FE748E259FAE3D00990407 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67FE7490259FAE3D00990407 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		67F25BE625A0F52000FB064D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				67F25BE725A0F53D00FB064D /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		67FE7482259FAE3D00990407 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +74,7 @@
 		67FE748D259FAE3D00990407 /* CharactersOfStarWars */ = {
 			isa = PBXGroup;
 			children = (
+				67F25BE625A0F52000FB064D /* Services */,
 				677BF2C725A0F2FB00BDDB45 /* Controllers */,
 				67FE748E259FAE3D00990407 /* AppDelegate.swift */,
 				67FE7490259FAE3D00990407 /* SceneDelegate.swift */,
@@ -147,6 +158,7 @@
 			files = (
 				67F25BE425A0F42D00FB064D /* CharacterViewController.swift in Sources */,
 				67FE748F259FAE3D00990407 /* AppDelegate.swift in Sources */,
+				67F25BE825A0F53D00FB064D /* Webservice.swift in Sources */,
 				67FE7491259FAE3D00990407 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
