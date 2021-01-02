@@ -13,6 +13,9 @@ class CharacterViewController: UIViewController {
     
     private func setup(){
         navigationController?.navigationBar.prefersLargeTitles = true
-        
+        let url = URL(string: "https://swapi.dev/api/people/1/")!
+        Webservice().getService(url: url) { _ in
+            
+        }
     }
 }

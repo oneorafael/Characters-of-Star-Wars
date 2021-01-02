@@ -14,7 +14,11 @@ class Webservice {
                 completion(nil)
                 print(error.localizedDescription)
             } else if let data = data {
-                print(data)
+                let character = try? JSONDecoder().decode(Character.self, from: data)
+                if let character = character {
+                    completion(character)
+                    print(character.name)
+                }
             }
         }.resume()
     }
