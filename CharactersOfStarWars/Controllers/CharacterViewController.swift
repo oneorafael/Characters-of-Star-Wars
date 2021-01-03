@@ -25,8 +25,7 @@ class CharacterViewController: UIViewController {
     private func setup(){
         
         navigationController?.navigationBar.prefersLargeTitles = true
-        //TODO: limite de variações de pessoas é de 83
-        var random = Int.random(in: 0...83)
+        let random = Int.random(in: 0...83)
         let url = URL(string: "https://swapi.dev/api/people/\(random)/")!
         
         Webservice().getService(url: url) { character in
