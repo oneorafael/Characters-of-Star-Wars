@@ -22,13 +22,30 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xBp-Ux-dac">
+                                <rect key="frame" x="20" y="580" width="374" height="54"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="VdH-7R-VQ3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <state key="normal" title="Try Again">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="reloadCharacterButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KA0-P3-JJt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OOx-1y-dqE" secondAttribute="trailing" constant="20" id="8uv-kC-iw2"/>
+                            <constraint firstItem="xBp-Ux-dac" firstAttribute="top" secondItem="OOx-1y-dqE" secondAttribute="bottom" constant="456" id="aqZ-KY-GuB"/>
                             <constraint firstItem="OOx-1y-dqE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="pjN-Hz-czI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xBp-Ux-dac" secondAttribute="trailing" constant="20" id="prk-Q8-i8u"/>
                             <constraint firstItem="OOx-1y-dqE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="yIN-VH-HY1"/>
+                            <constraint firstItem="xBp-Ux-dac" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yeh-qk-fcD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Character" id="gqL-RK-KQs"/>
