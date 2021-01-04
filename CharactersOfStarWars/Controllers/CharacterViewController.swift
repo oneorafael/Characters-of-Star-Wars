@@ -45,6 +45,7 @@ class CharacterViewController: UIViewController {
                     self.viewWillAppear(true)
                     self.loadingView.isHidden = true
                     self.AIndicatorLoading.stopAnimating()
+                    self.AIndicatorLoading.isHidden = true
                 }
                 print(self.CharacterVM.name)
             }
