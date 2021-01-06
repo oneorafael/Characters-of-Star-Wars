@@ -27,6 +27,7 @@ class CharacterViewController: UIViewController {
      * sort a random number and get data from API
      * reload viewController to aply data
      */
+    
     private func setup(){
         self.random = Int.random(in: 0...83)
         print("random number is: \(random)")
