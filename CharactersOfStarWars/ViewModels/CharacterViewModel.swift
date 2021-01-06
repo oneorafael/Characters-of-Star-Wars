@@ -15,5 +15,7 @@ struct CharacterViewModel {
     
     var name: String {return character.name}
     var gender: String {return character.gender}
+    var height: String {return character.height}
+    var birth_year: String {return character.birth_year}
 }
 

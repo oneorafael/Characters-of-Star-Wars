@@ -17,7 +17,6 @@ class Webservice {
                 let character = try? JSONDecoder().decode(Character.self, from: data)
                 if let character = character {
                     completion(character)
-                    print(character.name)
                 }
             }
         }.resume()

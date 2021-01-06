@@ -9,4 +9,6 @@ import Foundation
 struct Character: Decodable {
     let name: String
     let gender: String
+    let height: String
+    let birth_year: String
 }
